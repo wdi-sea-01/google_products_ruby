@@ -9,6 +9,7 @@ Google has all of the answers. Start slow and use smart searching for things lik
 * filtering an array in ruby
 * mapping an array in ruby
 * iterating over a hash in ruby
+* etc...
 
 
 ##Getting Started
