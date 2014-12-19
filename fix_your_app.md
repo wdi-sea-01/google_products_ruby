@@ -38,6 +38,10 @@ Learn Ruby the hard way by Zed Shaw
 
 Rails Tutorial by Michael Hartl
 
+* https://www.railstutorial.org/book
+
+Rails Guide
+
 * http://guides.rubyonrails.org/getting_started.html
 
 
