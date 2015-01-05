@@ -140,6 +140,13 @@
      "SLT-A77V"
     ],
     "inventories": [
+    {
+      "channel": "online",
+      "availability": "availabe",
+      "price": 898.0,
+      "shipping": 0.0,
+      "currency": "USD"
+     },
      {
       "channel": "online",
       "availability": "backorder",
