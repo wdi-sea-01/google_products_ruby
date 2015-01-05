@@ -65,20 +65,23 @@ when 1
     puts "shopping#product item count: #{get_shopping_products(items).length}"
 when 2
     puts "items on backorder: #{get_backorder_products(items).length}"
-
     output_items get_backorder_products(items)
 when 3
     puts "items with multiple images: #{get_multiple_images(items).length}"
+    output_items get_multiple_images(items)
 when 4
     puts "cannon items: #{get_cannon_items(items).length}"
+    output_items get_cannon_items(items)
 when 5
     cannon_items = get_cannon_items(items)
     puts "ebay items: #{get_brand_ebay(items).length}"
     puts "cannon and ebay items: #{get_brand_ebay(cannon_items).length}"
+    output_items get_brand_ebay(cannon_items)
 when 6
     output_items items
 else
-    puts "enter a number 1 - 6"
+    puts "Enter a number 1 - 6"
+    puts "Example: ruby google_shopping.rb 1"
 end
 
 #outputs the first item's title
